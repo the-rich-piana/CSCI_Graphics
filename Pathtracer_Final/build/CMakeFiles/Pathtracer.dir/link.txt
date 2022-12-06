@@ -1,1 +1,1 @@
-/usr/bin/clang++  -g  -rdynamic CMakeFiles/Pathtracer.dir/src/main.cc.o  -o Pathtracer 
+/usr/bin/clang++  -g  -rdynamic CMakeFiles/Pathtracer.dir/src/main.cpp.o  -o Pathtracer  -lSDL2 -lGL -lGLU -lglut -lXi -lGLEW -lglfw 

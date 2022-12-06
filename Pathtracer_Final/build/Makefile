@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gugu/CSCI_Graphics/GLSL_Final
+CMAKE_SOURCE_DIR = /home/gugu/CSCI_Graphics/Pathtracer_Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gugu/CSCI_Graphics/GLSL_Final/build
+CMAKE_BINARY_DIR = /home/gugu/CSCI_Graphics/Pathtracer_Final/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gugu/CSCI_Graphics/GLSL_Final/build/CMakeFiles /home/gugu/CSCI_Graphics/GLSL_Final/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gugu/CSCI_Graphics/Pathtracer_Final/build/CMakeFiles /home/gugu/CSCI_Graphics/Pathtracer_Final/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gugu/CSCI_Graphics/GLSL_Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gugu/CSCI_Graphics/Pathtracer_Final/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ Pathtracer/fast:
 	$(MAKE) -f CMakeFiles/Pathtracer.dir/build.make CMakeFiles/Pathtracer.dir/build
 .PHONY : Pathtracer/fast
 
-src/main.o: src/main.cc.o
+src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
 
 # target to build an object file
-src/main.cc.o:
-	$(MAKE) -f CMakeFiles/Pathtracer.dir/build.make CMakeFiles/Pathtracer.dir/src/main.cc.o
-.PHONY : src/main.cc.o
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Pathtracer.dir/build.make CMakeFiles/Pathtracer.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-src/main.i: src/main.cc.i
+src/main.i: src/main.cpp.i
 
 .PHONY : src/main.i
 
 # target to preprocess a source file
-src/main.cc.i:
-	$(MAKE) -f CMakeFiles/Pathtracer.dir/build.make CMakeFiles/Pathtracer.dir/src/main.cc.i
-.PHONY : src/main.cc.i
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Pathtracer.dir/build.make CMakeFiles/Pathtracer.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-src/main.s: src/main.cc.s
+src/main.s: src/main.cpp.s
 
 .PHONY : src/main.s
 
 # target to generate assembly for a file
-src/main.cc.s:
-	$(MAKE) -f CMakeFiles/Pathtracer.dir/build.make CMakeFiles/Pathtracer.dir/src/main.cc.s
-.PHONY : src/main.cc.s
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Pathtracer.dir/build.make CMakeFiles/Pathtracer.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:

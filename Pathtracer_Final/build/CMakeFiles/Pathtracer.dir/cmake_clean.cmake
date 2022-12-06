@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Pathtracer.dir/src/main.cc.o"
+  "CMakeFiles/Pathtracer.dir/src/main.cpp.o"
   "Pathtracer"
   "Pathtracer.pdb"
 )

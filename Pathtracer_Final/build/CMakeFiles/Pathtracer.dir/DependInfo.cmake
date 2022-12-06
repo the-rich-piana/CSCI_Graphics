@@ -4,12 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gugu/CSCI_Graphics/GLSL_Final/src/main.cc" "/home/gugu/CSCI_Graphics/GLSL_Final/build/CMakeFiles/Pathtracer.dir/src/main.cc.o"
+  "/home/gugu/CSCI_Graphics/Pathtracer_Final/src/main.cpp" "/home/gugu/CSCI_Graphics/Pathtracer_Final/build/CMakeFiles/Pathtracer.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/include/SDL2"
+  "/usr/lib/cmake/glm"
   "../utils"
   )
 

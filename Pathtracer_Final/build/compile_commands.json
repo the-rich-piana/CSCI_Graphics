@@ -1,7 +1,7 @@
 [
 {
-  "directory": "/home/gugu/CSCI_Graphics/GLSL_Final/build",
-  "command": "/usr/bin/clang++   -I/home/gugu/CSCI_Graphics/GLSL_Final/utils  -g   -std=gnu++11 -o CMakeFiles/Pathtracer.dir/src/main.cc.o -c /home/gugu/CSCI_Graphics/GLSL_Final/src/main.cc",
-  "file": "/home/gugu/CSCI_Graphics/GLSL_Final/src/main.cc"
+  "directory": "/home/gugu/CSCI_Graphics/Pathtracer_Final/build",
+  "command": "/usr/bin/clang++   -I/usr/include/SDL2 -I/usr/lib/cmake/glm -I/home/gugu/CSCI_Graphics/Pathtracer_Final/utils  -g   -std=gnu++11 -o CMakeFiles/Pathtracer.dir/src/main.cpp.o -c /home/gugu/CSCI_Graphics/Pathtracer_Final/src/main.cpp",
+  "file": "/home/gugu/CSCI_Graphics/Pathtracer_Final/src/main.cpp"
 }
 ]

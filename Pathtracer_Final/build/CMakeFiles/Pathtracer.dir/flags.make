@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/gugu/CSCI_Graphics/GLSL_Final/utils 
+CXX_INCLUDES = -I/usr/include/SDL2 -I/usr/lib/cmake/glm -I/home/gugu/CSCI_Graphics/Pathtracer_Final/utils 
 
