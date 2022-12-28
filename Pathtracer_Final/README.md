@@ -1,3 +1,7 @@
+![alt text](https://github.com/the-rich-piana/CSCI_Graphics/blob/master/Pathtracer_Final/images/render.jpg)
+
+
+
 --- CSCI 4229 Giuliano Costa Final Project Checkpoint 11/29 ---
 
 Interactive Pathtracer 
